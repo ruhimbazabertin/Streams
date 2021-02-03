@@ -3,7 +3,6 @@ import React from 'react';
 import { fetchStreams } from '../../actions';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import streams from '../../apis/streams';
 
 class StreamList extends React.Component {
 
